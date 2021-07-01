@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang='en-GB'>
-<head>
+  {% block head %}
+  <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <meta name='viewport' content='width=device-width initial-scale=1.0'>
 <link rel='icon' href='assets/images/favicon.ico'>
@@ -12,6 +13,7 @@
 <script src='assets/js/devauxonline.js'></script>
 <title>Devaux Online</title>
 </head>
+{% endblock %}
 <body onload='showMenuComponent("Welcome");'>
 <div id='imgbground' class='bground Home-display Gallery-display'></div>
 <div id='imgbground-blur' class='bground-blur'></div>
