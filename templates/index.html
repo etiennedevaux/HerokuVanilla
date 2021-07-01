@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en-GB'>
-  {% block head %}
+
   <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <meta name='viewport' content='width=device-width initial-scale=1.0'>
@@ -10,10 +10,10 @@
 <meta name='author' content='Stephen Clarke: Devaux Online Videography Expertise and Services'>
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'/>
 <link rel='stylesheet' href="{{ url_for('static', filename='assets/css/devauxonline.css') }}">
-<script src='assets/js/devauxonline.js'></script>
+<script src="{{ url_for('static', filename='assets/js/devauxonline.js') }}"></script>
 <title>Devaux Online</title>
 </head>
-{% endblock %}
+
 <body onload='showMenuComponent("Welcome");'>
 <div id='imgbground' class='bground Home-display Gallery-display'></div>
 <div id='imgbground-blur' class='bground-blur'></div>
