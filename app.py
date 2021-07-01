@@ -8,5 +8,4 @@ app.config.from_object(env_config)
 
 @app.route("/")
 def index():
-    secret_key = app.config.get("SECRET_KEY")
-    return f"Hello World in Flask and Welcome"
+       print ("<h1>Hello World in Flask and Welcome</h1>")
