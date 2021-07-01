@@ -9,4 +9,4 @@ app.config.from_object(env_config)
 @app.route("/")
 def index():
     secret_key = app.config.get("SECRET_KEY")
-    return f"Hello World in Flask"
+    return f"Hello World in Flask and Welcome"
