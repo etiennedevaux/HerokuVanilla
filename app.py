@@ -8,4 +8,4 @@ app.config.from_object(env_config)
 
 @app.route("/")
 def index():
-       return "Hello World in Flask and Welcome"
+       return "<h1>Hello World in Flask</h1><h2> and Welcome</h2>"
